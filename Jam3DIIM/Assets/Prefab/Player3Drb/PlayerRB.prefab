@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b19791bfd010e8641829efc6c65f8101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSnesy: 100
+  mouseSnesy: 10
   playerBody: {fileID: 5700594930843074785}
 --- !u!1 &5700594930111471087
 GameObject:
@@ -187,6 +187,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -254,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
-  jumpHeight: 2
+  jumpHeight: 20
   groundMask:
     serializedVersion: 2
     m_Bits: 1
